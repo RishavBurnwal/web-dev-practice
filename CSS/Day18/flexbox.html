@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            height: 800px;
+            width: 800px;
+            background-color: rgb(247, 247, 113);
+            font-size: 50px;
+            display: flex;
+            flex-wrap: nowrap;
+            flex-wrap: wrap;
+            gap: 30px;
+
+            flex-direction: row; /*arrange the items row-wise */
+            flex-direction: row-reverse; 
+            flex-direction: column;
+            flex-direction: column-reverse;
+            align-items: start; /*align-item make the content in the center vertically*/
+            align-items: end;
+            align-items: center;
+            justify-content: start;
+            justify-content: end;
+            justify-content: center; /*justify-content make the content in the center horizontally*/
+            justify-content: space-around; /* it provide the space around the content*/
+            justify-content: space-between; /*it provides space only between the content*/
+            justify-content: space-evenly; /*it distribute the space the evenly between the content */
+
+            order:2; /*make this in the mentioned order*/
+            align-self:end; /* used to move a perticular*/
+        }
+
+
+        .box1{
+            height: 20%;
+            width: 20%;
+            background-color: rgb(49, 167, 33);
+            /* flex: 2; */
+        }
+        .box2{
+            height: 20%;
+            width: 20%;
+            background-color: rgb(208, 96, 16);
+            /* flex: 1; */
+        }
+        .box3{
+            height: 20%;
+            width: 20%;
+            background-color: rgb(81, 134, 241);
+            /* flex: 1; */
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="box1">1</div>
+        <div class="box2">2</div>
+        <div class="box3">3</div> 
+    </div>
+</body>
+</html>

@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    display: flex;
+    background-color: white;
+    justify-content:space-evenly;
+}
+
+.part2>a{
+    color: black;
+}

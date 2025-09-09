@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a:visited{
+            color: brown;
+        }
+        p:active{
+            color: blue;
+            font-size: small;
+            background-color: #b81c1c;
+        }
+        input:focus{
+            background-color: #059652;
+            padding: 10px;
+            color: #b81c1c;
+            border: none;
+            border-radius: 10px;
+            outline: none;
+        }
+        input,button{
+            transition: 1s;
+        }
+        button:hover{
+            border-radius: 20px;
+            padding: 30px;
+            font-size: 30px;
+            background: radial-gradient(blue, white, green, red);
+        }
+    </style>
+</head>
+<body>
+    <a href="./sibling.html">
+        <h1>Click me...</h1>
+    </a>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus hic harum a cum pariatur veritatis dolore fugiat perspiciatis earum suscipit saepe, aliquid aspernatur officiis optio iusto. Nulla eaque molestias ipsa.</p>
+    <input type="text">
+    <input type="text">
+    <input type="text">
+    <button>Hover me</button>
+</body>
+</html>

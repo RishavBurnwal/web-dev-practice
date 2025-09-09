@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            border: 2px solid black;
+            padding: 10px;
+            width: 705;
+        }
+        .Parent h1{
+            background-color: yellow;
+            color: brown;
+        }
+        .child>h1{
+            background-color: blanchedalmond;
+            color: green;
+        }
+        .Parent>h1{
+            background-color: aqua;
+            color: wheat;
+        }
+        .g-child>p{
+            background-color: aqua;
+            color: blueviolet;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, cupiditate eius nihil consectetur voluptatibus officiis vero. Quaerat fugiat, ex porro quas, veritatis iusto rem quibusdam aliquam alias molestiae laborum? Nostrum.</p>
+    <div class="Parent">
+        <h1>Parent</h1>
+        <div class="child">
+            <h1>child</h1>
+                <div class="g-child">
+                    <h1>Grand child</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam obcaecati itaque debitis optio fugit exercitationem impedit quo adipisci tenetur deserunt dolores quidem, temporibus nulla ducimus reiciendis ratione blanditiis pariatur tempore.</p>
+                </div>
+            <b>Child</b>
+        </div>
+        <button>Parent</button>
+    </div>
+</body>
+</html>

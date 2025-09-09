@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+            color: rgb(169, 99, 234);
+        }
+        h1::before{
+            content: url();
+            content: "Hello all ";
+            color: brown;
+            font-size: 50px;
+            
+
+        }
+        h1::after{
+            content: url();
+            content: " to Jspider";
+            color: rgb(85, 53, 14);
+            font-size: 50px;
+            
+        }
+        .para::first-line{
+            font-size: 20px;
+            font-weight: bold;
+            color: rgb(36, 232, 215);
+        }
+        p{
+            text-indent: 200px;
+
+        }
+        p::first-letter{
+            font-size: 60px;
+            font-weight: bold;
+
+        }
+        p::before{
+            content: "Bhaiyaji";
+        }
+        input{
+            color: yellow;
+            background-color: rgb(201, 241, 137);
+            padding: 20px;
+            font-size: 20px;
+        }
+        input::placeholder{
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" placeholder="Enter the text">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At dolores obcaecati alias deserunt quod voluptatibus, tempore officia</p>
+
+    <div class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam atque, sunt minima fugiat asperiores fuga. Porro.</div>
+    <h1>WELCOME</h1>
+</body>
+</html>
