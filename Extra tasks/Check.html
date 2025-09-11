@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="username" placeholder="Enter your username">
+    <input type="password" id="password" placeholder="Enter your password">
+    <button onclick="check()">Login</button>
+
+    <script>
+        function check(){
+            let name = document.getElementById("username").value
+            let pass = document.getElementById("password").value
+
+            if(name == "ABC" && pass == "1234"){
+                console.log("Success");
+            }
+            else{
+                console.log("Failed")
+            }
+        }
+    </script>
+</body>
+</html>
