@@ -22,7 +22,7 @@ let new_arr2 = arr.filter((item)=>{            // filter() is used to filter the
 })
 console.log(new_arr2);
 
-let new_arr3 = arr.forEach((x)=>{            // forEach() is a javaScript in built method that is used to traverse all the elements
+let new_arr3 = arr.forEach((x)=>{            // forEach() is a javaScript inbuilt method that is used to traverse all the elements
     console.log("The element is "+ x);
     return x;
 })
