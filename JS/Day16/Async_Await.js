@@ -1,5 +1,5 @@
 async function fetchData(){
-    let res = await fetch("https://jsonplaceholder.typicode.com/commenets");
+    let res = await fetch("https://jsonplaceholder.typicode.com/commenets"); /*async make the function asynchronous  */
     let data = await res.json();
     console.log(data);
 }
