@@ -1,4 +1,4 @@
-let data = new Promise((res,rej)=>{
+let data = new Promise((res,rej)=>{  /*a promise in javascript takes one argument only --> The executor function itself always has two parameters , i.e, res & rej */
     if(rej){
         console.log("error");      
     }
@@ -10,10 +10,10 @@ let data = new Promise((res,rej)=>{
 })
 
 data
-.then ((res)=>{
+.then ((res)=>{    /*.then block is used to handle the resolved state */
     console.log(res); 
 })
-.catch((err)=>{
+.catch((err)=>{    /*.catch block is used to handle the rejected state */
     console.log(err);
 })
 
