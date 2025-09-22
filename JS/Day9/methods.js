@@ -39,7 +39,7 @@
 // console.log(index);
 
 //lastIndexof                              //lastIndexof used to search the element from the last index of the array
-// let index1 = arr1.lastIndexOf(10,4);    // iftwo arguments are given 
+// let index1 = arr1.lastIndexOf(10,4);    // if two arguments are given 
 // let index1 = arr1.lastIndexOf(10);
 // console.log(index1);
 

@@ -37,7 +37,7 @@ console.log(str3);
 
 
 //indexOf
-let index= str.indexOf("e", 2);   //IndexOf is used to print the index no. only for 1 time  where the given element is present (from 0 to length-1)
+let index = str.indexOf("e", 3);   //IndexOf is used to print the index no. only for 1 time  where the given element is present (from 0 to length-1)
 // In indexOf there are 2 arguments -> 1st is the element to be searched & 2nd is the index no. from where searching starts 
 console.log(index);
 
