@@ -1,11 +1,11 @@
 async function fetchData(){
     let res = await fetch("https://jsonplaceholder.typicode.com/commenets"); /*async make the function asynchronous  */
-    let data = await res.json(); /*await make the asynchronous function wait until the previous get resolve or reject */
+    let data = await res.json(); /*await make the asynchronous function wait until the previous get resolve or reject  */
     console.log(data);
 }
 fetchData()
 
-//Hoisting
+//Hoisting 
 //console.log(a);
 
 
