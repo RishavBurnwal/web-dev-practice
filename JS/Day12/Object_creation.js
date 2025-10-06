@@ -18,6 +18,7 @@ console.log(student);
 
 //2)Creating Object using constructor function
 function student(id, name, age, marks, isPresent){
+    
     this.id = id;
     this.name = name;
     this.age = age;
