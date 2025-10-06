@@ -51,10 +51,11 @@ let student = {
     id : "101",
     name : "Rishav",
     marks : "92",
-    subject : "Java"
+    subject : "Java",
+    year : "2021"
 }
-let (name, marks, subject) = student;
-console.log(name, marks, subject);
+let (name, marks, subject, year) = student;
+console.log(name, marks, subject, year);
 
 
 
