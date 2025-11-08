@@ -7,7 +7,5 @@ function checkEvenOdd(number) {
     console.log(number + " is Odd");
   }
 }
-
-// Example
-checkEvenOdd(10);  // Output: 10 is Even
-checkEvenOdd(7);   // Output: 7 is Odd
+checkEvenOdd(10); 
+checkEvenOdd(7);
