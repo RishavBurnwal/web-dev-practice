@@ -5,4 +5,4 @@ function fibonacci(n) {
   }
   return arr;
 }
-console.log(fibonacci(8)); 
+console.log(fibonacci(10)); 
