@@ -7,5 +7,5 @@ function isPalindrome(str) {
   }
 }
 
-isPalindrome("madam");  
-isPalindrome("hello");  
+isPalindrome("madam");  // madam is a palindrome
+isPalindrome("hello");  // hello is not a palindrome
