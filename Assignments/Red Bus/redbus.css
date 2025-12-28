@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    border: 1px solid rgb(174, 163, 163);
+    height: 80px;
+}
+
+.part2>a{
+    color: black;
+}
+
+.part2{
+    display: flex;
+    gap: 30px;
+    padding: 25px;
+    font-size:larger;
+    justify-content: space-evenly;
+}
+
+.part1 {
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    gap: 40px;   /* spacing between Logo, Bus, Train */
+    font-size:larger;
+    justify-content: space-evenly;
+}
+
+.part1 > div {
+    display: flex;
+    align-items: center;
+    gap: 8px;    /* spacing between icon and text */
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+}
+
+.search input{
+    height: 50px;
+    width: 700px;
+    border: 1px solid rgb(84, 81, 81);
+    border-radius: 15px;
+    margin: 10px;
+    text-align: center;
+    font-size: large;
+}
